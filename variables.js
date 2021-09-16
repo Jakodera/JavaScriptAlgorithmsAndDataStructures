@@ -62,6 +62,16 @@ lastName[7];  //e
 //finding the last character
 lastName[lastName.length - 1];
 
-//Store Multiple Values in one Variable using JavaScript Arrays
+//*************************************************Store Multiple Values in one Variable using JavaScript Arrays
 var myArray = ["peanut butter", 2];
 var myArray = [["Chairs", 10], ["Tables", 15]]; // nested array
+
+//*******************************************Access Multi-Dimensional Arrays With Indexes 
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+//QUIZ: Using bracket notation select an element from myArray such that myData is equal to 8.
+var myData = myArray[2][1];
+
+//*************************************Manipulate Arrays With push() 
+var myArray = [["John", 23], ["cat", 2]];
+//QUIZ: Push ["dog", 3] onto the end of the myArray variable.
+myArray.push(["dog", 3]);
