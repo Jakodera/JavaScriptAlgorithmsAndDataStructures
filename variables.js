@@ -41,6 +41,27 @@ ThirdLine*/
 
 var myStr= 'This is the start. ' + 'This is the end.';
 
-//Constructing Strings with Variables
+//*************************************************Constructing Strings with Variables*********************
 var myName = 'Jakodera';
 var myStr = 'My name is ' + myName + 'and I am well!';
+
+//**********************************************Appending Variables to Strings*************************
+
+var someAdjective = 'is the name';
+var myStr = "Jakodera";
+ myStr += someAdjective ;  //Jakodera is the name
+
+ //=************************************************Find the Length of a String***************************
+var lastName = "Jakodera";
+lastName.length; //8
+
+//***************************Use Bracket Notation to Find the nth Character in a String**************************
+var lastName = "Lovelace";
+lastName[0];  // L
+lastName[7];  //e
+//finding the last character
+lastName[lastName.length - 1];
+
+//Store Multiple Values in one Variable using JavaScript Arrays
+var myArray = ["peanut butter", 2];
+var myArray = [["Chairs", 10], ["Tables", 15]]; // nested array
