@@ -71,7 +71,10 @@ var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 //QUIZ: Using bracket notation select an element from myArray such that myData is equal to 8.
 var myData = myArray[2][1];
 
-//*************************************Manipulate Arrays With push() 
-var myArray = [["John", 23], ["cat", 2]];
+//************************************* Array manipulation 
+var myArray = [["John", 23], ["cat", 2], [7,8,9]];
 //QUIZ: Push ["dog", 3] onto the end of the myArray variable.
-myArray.push(["dog", 3]);
+myArray.push(["dog", 3]); //var myArray = [["John", 23], ["cat", 2]], [7,8,9], ["dog", 3],]; adds to end
+myArray.pop(); // var myArray = [["John", 23], ["cat", 2], [7,8,9]]; deletes last
+myArray.shift(); //var myArray = [["cat", 2], [7,8,9]]; deletes first
+myArray.unshift(["Paul",35])// var myArray = [["Paul",35], ["John", 23], ["cat", 2], [7,8,9]]; adds first
