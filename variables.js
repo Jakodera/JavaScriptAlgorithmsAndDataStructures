@@ -22,3 +22,25 @@ var myName;
 //Declare String Variables
 
 myName = "Jakodera"; //This assigns the string 'Jakodera' to myVariable.
+
+//Escaping Literal Quotes in Strings
+
+/*you can escape a quote from considering it 
+as an end of string quote by placing a backslash (\) in front of the quote.*/
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+//Escape Sequences in Strings
+var myStr="FirstLine\n\t\\SecondLine\nThirdLine";
+//output
+/*FirstLine
+    \SecondLine
+ThirdLine*/
+
+//Concatenating Strings with Plus Operator
+
+var myStr= 'This is the start. ' + 'This is the end.';
+
+//Constructing Strings with Variables
+var myName = 'Jakodera';
+var myStr = 'My name is ' + myName + 'and I am well!';
